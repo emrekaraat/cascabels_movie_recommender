@@ -9,3 +9,4 @@ wincertstore==0.2
 gunicorn
 pandas
 sklearn
+scikit-learn
