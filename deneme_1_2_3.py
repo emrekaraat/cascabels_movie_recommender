@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")   ## ignore NMF warnings
 import random
 import pickle
 
-ratings= pd.read_csv('../file_name_ratings.csv', index_col="userId")  
+ratings= pd.read_csv('file_name_ratings.csv', index_col="userId")  
 model = pickle.load(open("my_nmf_model.sav", "rb"))
 #user_films2 = {'71 (2014)' : 3,'Round Midnight (1986)' :2 , 'Salems Lot (2004)' :4}
 films = list(ratings.columns)
