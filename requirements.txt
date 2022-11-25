@@ -8,8 +8,5 @@ Werkzeug==2.2.2
 wincertstore==0.2
 gunicorn
 pandas
-<<<<<<< HEAD
-=======
 sklearn
 scikit-learn
->>>>>>> 0b6f8779b8dc23dd3b2e77f2c5199a2d342f001d
